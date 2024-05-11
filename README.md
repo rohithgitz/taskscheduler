@@ -1,3 +1,26 @@
+# Project Summary:
+This project involves extracting task-related information from the Task Scheduler in Windows and storing it in a SQL Server database for monitoring and analysis purposes. It fetch task details dynamically, and insert them into the database.
+
+# Your Contributions:
+
+# Logging Setup:
+I configured logging to track script execution details and errors, providing visibility into the process.
+# Task Scheduler Interaction:
+I implemented functions to connect to the Task Scheduler, retrieve task information from a specified folder, and handle errors gracefully.
+# Database Interaction:
+I established a connection to a SQL Server database and defined functions to insert task data into the database table completed_tasks.
+# Data Formatting: 
+I formatted the retrieved task data into a tabular format for better readability and understanding.
+# Execution Flow:
+I orchestrated the script execution flow, including database connection establishment, task retrieval, data insertion, and closure of database connections.
+# Error Handling:
+I implemented error handling mechanisms to capture and log any exceptions that may occur during script execution, ensuring robustness and reliability.
+# Output Handling:
+I redirected standard output to a file for additional information capture, aiding in debugging and troubleshooting.#
+# Documentation: 
+I provided inline comments and logging statements throughout the script to enhance readability and maintainability.
+
+
 # Task Scheduler Tasks Information and Database Insertion Script
 
 ## Overview
